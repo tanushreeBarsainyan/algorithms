@@ -1,3 +1,5 @@
+package src;
+
 import java.util.List;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -7,10 +9,12 @@ public class Main {
 //write tests here
     public static void main(String[] args) {
         //fibonacci all methods
-        System.out.println(Fibonacci.fiboRecursion(11));
-        System.out.println(Fibonacci.fibRecursionWithMap(11));
-        System.out.println(Fibonacci.fibRecursionWithArray(11));
-        System.out.println(Fibonacci.fibRecursionWithDP(11));
+//        System.out.println(Fibonacci.fiboRecursion(11));
+//        System.out.println(Fibonacci.fibRecursionWithMap(11));
+//        System.out.println(Fibonacci.fibRecursionWithArray(11));
+//        System.out.println(Fibonacci.fibRecursionWithDP(11));
+//        System.out.println(Permutation.permute(List.of()));
+        System.out.println(IPO.findMaximizedCapital(2,0,new int[]{1,2,3},new int[]{0,1,1}));
     }
 }
 
